@@ -18,7 +18,7 @@ This Trivia project made by udacity allows users to play a trivia game. Students
 This project requires the installation of pip3, python3, Nodejs and Node Package Manager (NPM). 
 
 ### Backend
-The [./backend](https://github.com/acrawan/FSND/tree/master/projects/02_trivia_api/starter/backend/README.md) directory contains a completed Flask and SQLAlchemy server. 
+The [./backend](https://github.com/acrawan/Trivia-api/blob/main/backend/README.md) directory contains a completed Flask and SQLAlchemy server. 
 Please refer to the instructions provided by udacity at [README within ./backend](./backend/README.md) regardig the set up of the backend. 
 to run the backend: 
 ```bash
@@ -28,7 +28,7 @@ $ flask run
 ``` 
 ### Frontend
 
-The [./frontend](https://github.com/udacity/FSND/blob/master/projects/02_trivia_api/starter/frontend/README.md) directory contains a complete React frontend to consume the data from the Flask server. 
+The [./frontend](https://github.com/acrawan/Trivia-api/blob/main/frontend/README.md) directory contains a complete React frontend to consume the data from the Flask server. 
 Please refer to the instructions provided by udacity at [README within ./frontend](./frontend/README.md) regardig the set up of the frontend. 
 to start the project: 
 ```bash
