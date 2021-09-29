@@ -120,7 +120,7 @@ def create_app(test_config=None):
         'total_questions': len(Question.query.all())
       }), 200
 
-    except:
+    except Exception as e:
       abort(422)
 
   '''
@@ -190,7 +190,7 @@ def create_app(test_config=None):
           'total_questions': len(Question.query.all())
         })
 
-    except:
+    except Exception as e:
       abort(422)
 
 
@@ -222,7 +222,7 @@ def create_app(test_config=None):
         'current_category': category.type
       }), 200
 
-    except: 
+    except Exception as e: 
       abort(422)
 
 
@@ -273,7 +273,7 @@ def create_app(test_config=None):
       }), 200
 
     
-    except: 
+    except Exception as e: 
       abort(422)
       
 
