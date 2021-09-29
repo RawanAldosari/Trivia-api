@@ -3,7 +3,7 @@ __pycache__
 venv
 env
 frontend/node_modules
-
+ddd
 # OS generated files #
 ######################
 .DS_Store
